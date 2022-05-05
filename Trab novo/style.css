@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+    
+}
+body{
+width: 100%;
+height: 400%;
+    color:white;
+    position: relative;
+    background-image: url(./imagens/abraba2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 400%;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(105,4,154);
+    background: linear-gradient(90deg, rgba(105,4,154,1) 0%, rgba(44,9,121,1) 35%, rgba(84,26,176,1) 59%, rgba(0,15,170,1) 89%);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    padding: 20px;
+}
+#artilheiros img{
+   width: 400px;
+   height: 250px;
+   
+
+}
+#campeoes img{
+    width: 400px;
+    height: 250px;
+    
+}
+#assitencias img{
+    width: 400px;
+    height: 250px;
+    
+}
+#caros img{
+width: 400px;
+height: 250px;
+   
+    
+   
+}
+img{
+box-shadow: 0 0 15px rgb(0, 0, 0);
+border-radius: 6px;
+
+
+}
+header img{
+    width: 100%;
+    height: 600px;
+    box-shadow: 0 0 20px black;
+}
+.titulo_principal{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-shadow: 4px 5px rgb(0, 0, 0);
+}
+.conteudo_sobre{
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.conteudo_sobre p{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    font-style: normal;
+}
+
+.conteudo_sobre h1{
+
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#taca{
+
+    width: 100%;
+    height: 650px;
+}
+
+
